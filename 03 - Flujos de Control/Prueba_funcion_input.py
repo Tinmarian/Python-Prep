@@ -52,12 +52,23 @@ while True:
 
         else:
             print(a, 'no es primo')           
-            b = input('Escribe 1 para verificar otro número. '
+            b = input('Escribe 1 para encontrar el siguiente número que sí sea primo o 2 para verificar otro número. '
                 'Puedes salir del programa con la tecla "ESC" o con cualquier otro número.')
             b = float(b)
             b = int(b)
 
-            if b == 1:
+            while b == 1:
+                while True:
+                    a += 1
+                    if verifica_primo(a):
+                        print(a, 'es el siguiente número primo')
+                        break
+                b = input('Escribe 1 para encontrar el siguiente número primo o 2 para dar otro número. '
+                    'Puedes salir del programa con la tecla "ESC" o con cualquier otro número.')
+                b = float(b)
+                b = int(b)
+
+            if b == 2:
                 continue
             else:
                 break
