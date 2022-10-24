@@ -29,8 +29,7 @@ n<sub>i-4</sub> / n<sub>i-3</sub><br>
 n<sub>i-5</sub> / n<sub>i-4</sub><br>
  
 
-10) A partir de la variable cadena ya dada, mostrar en qué posiciones aparece la letra "n"<br>
-cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
+10) A partir de la variable cadena ya dada, mostrar en qué posiciones aparece la letra "n". cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
 
 11) Crear un diccionario e imprimir sus claves utilizando un iterador
 
