@@ -22,6 +22,6 @@ Factorial<br>
 
 6) Probar las funciones incorporadas en la clase del punto 5
 
-7) Es necesario que la clase creada en el punto 5 contenga una lista, sobre la cual se aplquen las funciones incorporadas
+7) Es necesario que la clase creada en el punto 5 contenga una lista, sobre la cual se apliquen las funciones incorporadas
 
 8) Crear un archivo .py aparte y ubicar allí la clase generada en el punto anterior. Luego realizar la importación del módulo y probar alguna de sus funciones
