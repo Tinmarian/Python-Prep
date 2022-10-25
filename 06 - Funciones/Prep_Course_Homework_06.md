@@ -1,6 +1,6 @@
 ## Funciones
 
-1) Crear una función que reciba un número como parámetro y devuelva si True si es primo y False si no lo es
+1) Crear una función que reciba un número como parámetro y devuelva True si es primo y False si no lo es
 
 2) Utilizando la función del punto 1, realizar otra función que reciba de parámetro una lista de números y devuelva sólo aquellos que son primos en otra lista
 
