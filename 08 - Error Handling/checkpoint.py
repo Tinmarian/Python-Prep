@@ -12,12 +12,18 @@ def Factorial(numero):
         Factorial(-2) debe retornar nulo
     '''
     #Tu código aca:
-    return 'Funcion incompleta'
+    if type(numero) != int or numero < 1:
+        return None
+    else:
+        x = 1
+        for i in range(1,numero+1):
+            x = x * i
+        return x
 
 def EsPrimo(valor):
     '''
-    Esta función devuelve el valor booleano True si el número reibido como parámetro es primo, de lo 
-    contrario devuelve False..
+    Esta función devuelve el valor booleano True si el número reibido como 
+    parámetro es primo, de lo contrario devuelve False..
     En caso de que el parámetro no sea de tipo entero debe retornar nulo.
     Recibe un argumento:
         valor: Será el número a evaluar
@@ -26,9 +32,20 @@ def EsPrimo(valor):
         EsPrimo(8) debe retornar False
     '''
     #Tu código aca:
-    return 'Funcion incompleta'
-    
-def ClaseAnimal(especie, color):
+    if type(valor) != int or valor < 1:
+        return None
+    else:
+        primo = True
+        for i in range(2,int(valor/2)+1):
+            if valor % i == 0:
+                primo = False
+                break
+    return primo
+
+
+
+def ClaseAnimal(especie,color):
+
     '''
     Esta función devuelve un objeto instanciado de la clase Animal, 
     la cual debe tener los siguientes atributos:
@@ -46,5 +63,16 @@ def ClaseAnimal(especie, color):
         a.CumpliAnios() -> debe devolver 2
         a.CumpliAnios() -> debe devolver 3
     '''
-    #Tu código aca:
-    return 'Funcion incompleta'
+    class Animal:
+
+        def __init__(self,especie,color):
+            self.x1 = especie
+            self.x2 = color
+            self.Edad = 0
+
+        def CumplirAnios(self):
+            self.Edad += 1
+            return self.Edad
+
+    a = Animal(especie,color)
+    return a
