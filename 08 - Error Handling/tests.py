@@ -1,6 +1,8 @@
 import unittest
 import os
 import checkpoint as ch
+import importlib
+importlib.reload(ch)
 
 class PruebaHenryChallenge(unittest.TestCase):
     
